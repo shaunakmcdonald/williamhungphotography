@@ -5,7 +5,7 @@ html, body {
   font-family: 'PT Sans', sans-serif;
   -webkit-appearance: none;
   overflow-x: hidden;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2;
 }
 
@@ -130,11 +130,6 @@ html, body {
 
 @media screen and (min-width: 750px) {
 
-body {
-
- line-height: 1.2;
-}
-
 #section-A {
  width: 100%;
  text-align: left;
@@ -164,12 +159,18 @@ body {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 
 #section-A img {
  width: 25%;
 }
 
 body {
- font-size: 16px;
+ font-size: 1.5em;
+}
+
+#section-C .fa {
+ font-size: 1.25em;
+
+}
 }
